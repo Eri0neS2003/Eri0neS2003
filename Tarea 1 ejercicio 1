@@ -1,0 +1,36 @@
+package com.mycompany.punto#1;
+
+import java.util.Scanner;
+
+public class punto#1 {
+
+    public static void main(String[] args) {
+        
+        Scanner entrada= new Scanner (System.in);
+       
+         String nombre;
+         Scanner sc=new Scanner (System.in);
+         String apellido;
+        
+         int horas;
+         int precio;
+         int salario;
+         
+         
+         System.out.println("Ingrese su nombre:");
+         nombre=sc.nextLine();
+         
+         System.out.println("Ingrese Su Apellido:");
+         apellido=sc.nextLine();
+         
+         System.out.println("Cuantas horas tiene de trabajo al mes:");
+         horas= entrada.nextInt();
+         
+         System.out.println("cual es el precio por las horas que usted trabaja");
+         precio= entrada.nextInt();
+         
+         salario=horas/precio;
+         
+         System.out.println("El salario total de sus horas es: "+" "+salario);
+    }
+}
